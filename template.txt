@@ -1,0 +1,6 @@
+show login and register page
+login with via name and username
+show profile page
+show all posts page
+increase like 
+comment features
