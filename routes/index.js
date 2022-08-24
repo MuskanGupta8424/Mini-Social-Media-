@@ -25,7 +25,6 @@ router.get('/profile',isLoggedIn,function(req, res) {
 
 //edit page -> edit user details and show updation form
 router.get('/edit/:id',isLoggedIn,function(req,res){
-
 userModel.findOne({_id:req.params.id})
 .then(function(oldData){                                                                                                                                                                                                                                                                                                                                                       
   res.render('edit',{oldData:oldData});
